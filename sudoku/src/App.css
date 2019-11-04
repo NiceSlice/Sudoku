@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.sudoku{
+  margin: auto;
+  margin-top: 10rem;
+}
+
+
+
+.row{
+  display: flex;
+}
+
+.square{
+  border: black solid 0.1rem;
+  box-sizing: border-box;
+  line-height: 3rem;
+}
+
+.field{
+  height: 3rem;
+  width: 3rem;
+  border: black solid 0.05rem;
+  box-sizing: border-box;
+}
+
+
+.button{
+  margin: auto;
+  margin-top: 5rem;
+  height: 3rem;
+  width: 6rem;
+  background-color: #3c3c3c;
+  border-radius: 10%;
+  cursor: pointer;
+
+  line-height: 3rem;
+  color: white;
+
+
+}
